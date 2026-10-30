@@ -107,11 +107,9 @@ Customer_Segmentation/
 Clonez le dépôt GitHub, puis placez-vous dans son dossier :
 
 ```bash
-git clone URL_DU_DEPOT
+git clone https://github.com/BabouDiouf/Customer_Segmentation.git
 cd Customer_Segmentation
 ```
-
-Remplacez `URL_DU_DEPOT` par l'adresse réelle de votre dépôt.
 
 ### Étape 2 — Créer un environnement virtuel
 
