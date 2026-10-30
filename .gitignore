@@ -1,0 +1,15 @@
+
+# Environnement virtuel
+.venv/
+venv/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+
+# Configuration locale
+.env
+
+# Fichiers temporaires
+*.log
+.DS_Store
