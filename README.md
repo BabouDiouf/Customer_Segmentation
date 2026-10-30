@@ -68,6 +68,80 @@ Le modèle K-Means a réparti les 200 clients en cinq segments.
 
 Ces profils permettent de mieux comprendre les différences de comportement entre les groupes et d'envisager des stratégies marketing adaptées.
 
+## Interprétation métier et recommandations marketing
+
+L'objectif de cette segmentation est d'identifier des groupes de clients présentant des comportements similaires en matière de revenu annuel et de score de dépense. Ces profils peuvent aider une entreprise à adapter ses actions marketing, à personnaliser ses offres et à mieux répartir ses ressources.
+
+### 1. Clients à dépenses modérées — Cluster 0
+
+**Profil :** 81 clients, soit 40,5 % du portefeuille analysé. Leur revenu annuel moyen est de 55,30 k$ et leur score de dépense moyen est de 49,52.
+
+**Recommandations :**
+- Mettre en place des programmes de fidélité.
+- Proposer des produits complémentaires afin d'augmenter le panier moyen.
+- Personnaliser les recommandations selon les achats et préférences observés.
+
+**Objectif métier :** améliorer progressivement l'engagement et les dépenses des clients.
+
+### 2. Clients à revenu élevé et dépenses élevées — Cluster 1
+
+**Profil :** 39 clients, soit 19,5 % du portefeuille. Leur revenu annuel moyen est de 86,54 k$ et leur score de dépense moyen est de 82,13.
+
+**Recommandations :**
+- Proposer des avantages exclusifs et des offres personnalisées.
+- Mettre en avant les nouveautés et les produits premium.
+- Renforcer la fidélisation grâce à une expérience client de qualité.
+
+**Objectif métier :** maintenir leur engagement et favoriser leur fidélité à long terme.
+
+### 3. Clients à revenu faible et dépenses élevées — Cluster 2
+
+**Profil :** 22 clients, soit 11 % du portefeuille. Leur revenu annuel moyen est de 25,73 k$ et leur score de dépense moyen est de 79,36.
+
+**Recommandations :**
+- Tester des promotions ciblées et des offres accessibles.
+- Proposer des lots ou des réductions adaptées aux produits recherchés.
+- Mesurer la rentabilité des campagnes avant de les généraliser.
+
+**Objectif métier :** maintenir l'engagement tout en contrôlant les coûts promotionnels.
+
+### 4. Clients à revenu élevé et dépenses faibles — Cluster 3
+
+**Profil :** 35 clients, soit 17,5 % du portefeuille. Leur revenu annuel moyen est de 88,20 k$ et leur score de dépense moyen est de 17,11.
+
+**Recommandations :**
+- Identifier les éventuels freins à l'achat.
+- Tester des recommandations personnalisées et des campagnes de réactivation.
+- Analyser les préférences et les réactions aux offres proposées.
+
+**Objectif métier :** identifier les leviers susceptibles d'améliorer leur engagement commercial.
+
+### 5. Clients à revenu faible et dépenses faibles — Cluster 4
+
+**Profil :** 23 clients, soit 11,5 % du portefeuille. Leur revenu annuel moyen est de 26,30 k$ et leur score de dépense moyen est de 20,91.
+
+**Recommandations :**
+- Privilégier des campagnes de communication peu coûteuses.
+- Présenter des offres d'entrée de gamme pertinentes.
+- Évaluer les réactions des clients avant d'investir davantage dans leur acquisition ou leur fidélisation.
+
+**Objectif métier :** développer progressivement l'engagement tout en maîtrisant les coûts marketing.
+
+### Indicateurs à suivre après les campagnes
+
+Pour évaluer l'efficacité de ces recommandations, une entreprise pourrait suivre :
+- Le taux de conversion par segment.
+- Le panier moyen et la fréquence d'achat.
+- Le taux de réachat et de rétention.
+- Le chiffre d'affaires généré par segment.
+- Le coût des campagnes et leur retour sur investissement.
+
+### Limites de l'analyse
+
+Cette segmentation repose sur le revenu annuel et le score de dépense fournis dans le dataset. Elle ne mesure pas directement le chiffre d'affaires réel, la marge ou la valeur vie client (Customer Lifetime Value).
+
+Les recommandations proposées sont des hypothèses à tester avec des données de ventes réelles et des résultats de campagnes marketing. Elles ne constituent pas des conclusions causales.
+
 ## 6. Livrables
 
 Les fichiers générés sont enregistrés dans le dossier `outputs/`.
